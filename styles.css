@@ -170,6 +170,7 @@ header .image-text .header-text {
   height: 100%;
   width: 100%;
   background-color: var(--primary-color-light);
+  color: var(--text-color);
   border: none;
   outline: none;
   padding: 5px;
@@ -188,13 +189,8 @@ header .image-text .header-text {
   display: flex;
   align-items: center;
   text-decoration: none;
-  border-radius: 6px;/* 
-  overflow-x: hidden; */
+  border-radius: 6px;
   transition: var(--tran-04);
-}
-/* 
-.sidebar.close li a{
-    width: 58px;
 }
  */
 .sidebar li a:hover {
