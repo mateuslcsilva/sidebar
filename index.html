@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Prompt:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+    <title>Sidebar</title>
+  </head>
+  <body>
+    <nav class="sidebar">
+      <header>
+        <div class="image-text">
+          <span class="image">
+            <img src="assets/images/logo-simpls.png" alt="logo" />
+          </span>
+
+          <div class="div text header-text">
+            <span class="name">Simpls Software</span>
+            <span class="profession">Software de Gestão</span>
+          </div>
+        </div>
+
+        <span class=" toggle"><i class="bi bi-chevron-right"></i></span>
+      </header>
+
+      <div class="menu-bar">
+        <div class="menu">
+
+            <li class="search-box">
+                <label for="input-search"><i class="bi bi-search"></i></label>
+                    <input type="search" id="input-search" placeholder="Search..."></input>
+            </li>
+            <ul class="menu-link-list">
+                <li class="nav-link">
+                    <a href="#">
+                        <i class="bi bi-house"></i>
+                        <span class="text nav-text">Início</span>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">
+                        <i class="bi bi-currency-dollar"></i>
+                        <span class="text nav-text">Vendas</span>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">
+                        <i class="bi bi-wallet2"></i>
+                        <span class="text nav-text">Fluxo de Caixa</span>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">
+                        <i class="bi bi-bar-chart"></i>
+                        <span class="text nav-text">Relatórios de Venda</span>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">
+                        <i class="bi bi-clipboard-data"></i>
+                        <span class="text nav-text">Dashboards</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="bottom-content">
+            <hr>
+            <li class="mode">
+                <div class="moon-sun">
+                    <i class="bi bi-moon moon"></i>
+                    <i class="bi bi-brightness-high sun"></i>
+                </div>
+                <span class="mode-text text">Dark Mode</span>
+                <div class="toggle-switch">
+                    <span class="switch"></span>
+                </div>
+            </li>
+            <li class="">
+                <a href="#">
+                    <i class="bi bi-box-arrow-right"></i>
+                    <span class="text nav-text">Sair</span>
+                </a>
+            </li>
+        </div>
+
+      </div>
+
+
+
+    </nav>
+  </body>
+</html>
